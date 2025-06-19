@@ -4,7 +4,7 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <errno.h>
-#include <sys/stat.h> // Required for struct stat and fstat
+#include <sys/stat.h> 
 
 // 获取内存页大小
 long get_page_size() {

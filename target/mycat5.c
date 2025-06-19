@@ -6,7 +6,7 @@
 #include <errno.h>
 #include <sys/stat.h>
 
-#define OPTIMAL_BUFFER_SIZE (512 * 1024)//根据实验结果得出
+#define OPTIMAL_BUFFER_SIZE (256 * 1024)//根据实验结果得出
 
 long get_page_size() {
     long page_size = sysconf(_SC_PAGESIZE);

@@ -8,7 +8,7 @@
 #include <sys/stat.h>
 
 #ifndef OPTIMAL_BUFFER_SIZE
-#define OPTIMAL_BUFFER_SIZE (512 * 1024) // Default if not set by user
+#define OPTIMAL_BUFFER_SIZE (256 * 1024)
 #endif
 
 
